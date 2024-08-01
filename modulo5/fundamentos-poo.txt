@@ -15,6 +15,8 @@ class Person:
     def greet(self):
         print(f"Hola, mi nombre es {self.name} y tengo {self.age} años.")  # Método
 
+
+
 # Crear una instancia de la clase Person
 persona1 = Person("Ana", 30)
 persona1.greet()  # Output: Hola, mi nombre es Ana y tengo 30 años.
