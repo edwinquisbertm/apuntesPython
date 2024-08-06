@@ -17,3 +17,6 @@ https://replit.com/@NicolasMolina13/Python-102#main.py
 
 https://elpythonista.com/zen-de-python
 
+https://www.w3schools.com/python/python_ref_set.asp
+
+https://www.geeksforgeeks.org/difference-between-list-vs-set-vs-tuple-in-python/
