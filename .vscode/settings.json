@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./modulo9/app"
+    ]
+}
