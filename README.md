@@ -30,3 +30,35 @@ https://platzi.com/blog/matplotlib/
 https://matplotlib.org/
 
 https://www.w3schools.com/python/matplotlib_pyplot.asp
+
+# configuracion de entorno de trabajo profesional
+
+Comandos Utilizados
+
+python
+
+python3
+
+exit() para salir de la interfaz de python
+
+Instalación
+
+apt update
+
+sudo apt update
+
+sudo apt -y upgrade
+
+Verificar Instalación de python
+
+python3 -V
+Instalación de gestor de paquetes de dependencias
+
+sudo apt insstall -y python3-pip
+Verificar Instalación del gestor
+
+pip3 -V
+Dependencias en entorno profesional
+
+apt install -y build-essential libssl-dev libffi-dev python3-dev
+
