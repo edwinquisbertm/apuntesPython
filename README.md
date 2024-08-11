@@ -20,3 +20,13 @@ https://elpythonista.com/zen-de-python
 https://www.w3schools.com/python/python_ref_set.asp
 
 https://www.geeksforgeeks.org/difference-between-list-vs-set-vs-tuple-in-python/
+
+https://www.kaggle.com/
+
+https://www.w3schools.com/python/python_file_open.asp
+
+https://platzi.com/blog/matplotlib/
+
+https://matplotlib.org/
+
+https://www.w3schools.com/python/matplotlib_pyplot.asp
