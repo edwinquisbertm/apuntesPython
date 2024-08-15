@@ -62,3 +62,68 @@ Dependencias en entorno profesional
 
 apt install -y build-essential libssl-dev libffi-dev python3-dev
 
+# instalacion de paquetes
+https://pypi.org/
+
+# virtualizar un entorno de trabajo
+
+- Crear entorno virtual con el nombre venv:
+python3 -m venv venv
+
+- Activar entorno virtual:
+source venv/bin/activate
+
+- pip freeze para verificar que no ha nada instalado:
+pip freeze
+
+- Instalar:
+pip install matplotlib
+
+- pip freeze para verificar lo instalado solo en el entorno virtual:
+pip freeze
+
+- para desactivar el entorno virtual
+deactivate
+
+- Verificar donde esta python y pip
+
+which python3
+
+which pip3
+
+- Si estas en linus o wsl debes instalar
+
+sudo apt install -y python3-venv
+
+- Poner cada proyecto en su propio ambiente, entrar en cada carpeta.
+
+python3 -m venv env
+
+- Activar el ambiente
+
+source env/bin/activate
+
+- Salir del ambiente virtual
+
+deactivate
+
+- Podemos instalar las librerias necesarias en el ambiente virtual como por ejemplo
+
+pip3 install matplotlib==3.5.0
+
+- Verificar las instalaciones
+
+pip3 freeze
+
+# requirements.txt
+- para crearlo usamos:
+pip3 freeze > requirements.txt
+
+- para instalarlo
+pip3 install -r requirements.txt 
+
+# Lecturas de request
+https://requests.readthedocs.io/en/latest/
+
+# Api de practica platzi
+https://fakeapi.platzi.com/
