@@ -127,3 +127,20 @@ https://requests.readthedocs.io/en/latest/
 
 # Api de practica platzi
 https://fakeapi.platzi.com/
+
+https://fastapi.tiangolo.com/#installation
+
+https://fastapi.tiangolo.com/advanced/custom-response/#html-response
+
+# instalar fastapi
+pip3 install fastapi
+pip3 install "fastapi[standard]"
+pip3 install 'uvicorn[standard]'
+
+https://www.uvicorn.org/
+
+# inicio del servidor
+uvicorn main:app --reload
+uvicorn main:app
+
+fastapi dev main.py
