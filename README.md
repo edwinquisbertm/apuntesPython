@@ -144,3 +144,32 @@ uvicorn main:app --reload
 uvicorn main:app
 
 fastapi dev main.py
+
+# Contendores con Docker
+nos permiten controlar la version del lenguaje  y poder moverlo entre entornos de trabajo
+
+https://docs.docker.com/desktop/install/windows-install/
+
+- para compilar el contenedor de docker:
+docker-compose build 
+
+- para inicializar el contenedor de docker enviamos
+docker-compose up -d
+
+- para ejecutar el contenedor de docker
+docker-compose exec app-csv bash
+
+# cambios en el codigo con docker
+Cuando realizar cambios en el codigo este cambio no se aplica al contenedor creado por lo que debemos volver a ejecutar:
+
+docker-compose build
+
+docker-compose up -d
+
+docker-compose exec app-csv bash
+
+# Otra forma de enlazar el contenedor a los cambios en el codigo es utilizan el archivo docker-compose.yml
+En este agregaremo la propiedad columes en el que indicaremos que el el directorio esta enlazado al contenedor para que de esa forma los cambios esten conectados
+
+# comprobar si esta corriendo docker
+docker-compose ps
